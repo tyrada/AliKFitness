@@ -5,15 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AliK Fitness</title>
   <link rel="stylesheet" href="./src/style.css" />
+  <script defer src="./src/script.js"></script>
 </head>
 <body>
-  <div class="container">
-    <img src="./assets/logo.png" alt="AliK Fitness Logo" class="logo" />
-    <h1>Welcome to AliK Fitness 💪</h1>
-    <p>Your journey starts here.</p>
-    <button onclick="goToLogin()">Log In</button>
-  </div>
 
-  <script src="./src/script.js"></script>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <h1 class="logo">AliK Fitness</h1>
+      <nav id="nav-links" class="nav-links">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+        <button class="signup-btn" onClick="goToLogin()">
+          <span>Log In</span> ✍️
+        </button>
+      </nav>
+      <div id="menu-toggle" class="menu-toggle">☰</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Start Your Fitness Journey Today</h2>
+      <p>Personalized programs. Real results. Join us now!</p>
+      <button class="cta-btn" onclick="goToLogin()">Get Started</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About AliK Fitness</h2>
+      <p>AliK Fitness is dedicated to helping you achieve your fitness goals with tailored programs and professional guidance. Let's make your dream body a reality!</p>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="programs">
+    <div class="container">
+      <h2>Our Programs</h2>
+      <ul>
+        <li>🏋️ Personal Training</li>
+        <li>🥗 Nutrition Coaching</li>
+        <li>🧘 Yoga & Wellness</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email us at: <a href="mailto:contact@alikfitness.com">contact@alikfitness.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AliK Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>

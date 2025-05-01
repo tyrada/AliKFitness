@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up - AliK Fitness</title>
+  <link rel="stylesheet" href="../src/style.css" />
+  <script defer src="../src/signup.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <h1 class="logo">AliK Fitness</h1>
+    </div>
+  </header>
+
+  <!-- Signup Form Section -->
+  <section class="login-section">
+    <div class="container login-container">
+      <h2>Create Your Account</h2>
+      <p>Start your fitness journey today!</p>
+
+      <form id="signup-form" class="login-form">
+        <input type="text" id="signup-name" placeholder="Full Name" required />
+        <input type="email" id="signup-email" placeholder="Email Address" required />
+        <input type="password" id="signup-password" placeholder="Password" required />
+        <button type="submit" class="cta-btn">Sign Up</button>
+      </form>
+
+      <div class="login-links">
+        <a href="./login.html">Already have an account?</a> |
+        <a href="../index.html">Back to Home</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AliK Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

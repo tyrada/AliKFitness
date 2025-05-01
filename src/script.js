@@ -1,6 +1,9 @@
 function goToLogin() {
   window.location.href = "./pages/login.html";
 }
+function goToSignup() {
+  window.location.href = "./pages/signup.html";
+}
 
 // Mobile Menu Toggle
 const menuToggle = document.getElementById('menu-toggle');

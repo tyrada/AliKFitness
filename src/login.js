@@ -1,7 +1,7 @@
 document.querySelector('.login-form').addEventListener('submit', function (e) {
     e.preventDefault();
   
-    const email = document.querySelector('input[type="email"]').value.trim();
+    const email = document.querySelector('input[type="email"]').value.trim().toLowerCase();
     const password = document.querySelector('input[type="password"]').value.trim();
   
     const storedUser = JSON.parse(localStorage.getItem('user'));

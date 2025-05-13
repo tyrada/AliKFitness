@@ -211,3 +211,20 @@ body {
 .login-links a:hover {
   text-decoration: underline;
 }
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

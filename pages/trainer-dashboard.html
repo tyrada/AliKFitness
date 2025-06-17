@@ -5,7 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trainer Dashboard - AliK Fitness</title>
   <link rel="stylesheet" href="../src/style.css" />
-</head>
+  <!-- Firebase via CDN -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyC8JD-SmMZyLZF1hYhhvrrWgU2kK3h1cI0",
+      authDomain: "testalikfitness-df66b.firebaseapp.com",
+      projectId: "testalikfitness-df66b",
+      storageBucket: "testalikfitness-df66b.firebasestorage.app",
+      messagingSenderId: "68491787113",
+      appId: "1:68491787113:web:46925cccec449074339bf8",
+      measurementId: "G-7TQJ9C0XGL"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    const auth = firebase.auth();
+
+    console.log("🔥 Firebase connected (CDN version)");
+  </script>
 <body>
 
   <header class="navbar">

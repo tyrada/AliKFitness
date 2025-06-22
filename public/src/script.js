@@ -1,8 +1,8 @@
 function goToLogin() {
-  window.location.href = "./pages/login.html";
+  window.location.href = "/login";
 }
 function goToSignup() {
-  window.location.href = "./pages/signup.html";
+  window.location.href = "/signup";
 }
 
 // Mobile Menu Toggle

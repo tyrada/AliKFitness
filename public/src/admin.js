@@ -10,7 +10,7 @@ document.getElementById('admin-login-form').addEventListener('submit', function 
   
     if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
       alert("✅ Welcome, Admin Ali.");
-      window.location.href = "./admin-dashboard.html";
+      window.location.href = "/admin-dashboard";
     } else {
       alert("❌ Unauthorized. Incorrect admin credentials.");
     }

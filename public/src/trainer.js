@@ -10,7 +10,7 @@ document.getElementById('trainer-login-form').addEventListener('submit', functio
   
     if (email === TRAINER_EMAIL && password === TRAINER_PASSWORD) {
       alert("✅ Welcome, Trainer Name.");
-      window.location.href = "./trainer-dashboard.html";
+      window.location.href = "/trainer-dashboard";
     } else {
       alert("❌ Unauthorized. Incorrect trainer credentials.");
     }

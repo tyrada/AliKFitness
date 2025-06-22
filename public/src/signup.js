@@ -27,7 +27,7 @@ document.getElementById('signup-form').addEventListener('submit', function (e) {
     })
     .then(() => {
       alert("✅ Account created successfully! Redirecting to login...");
-      window.location.href = "./login.html";
+      window.location.href = "/login";
     })
     .catch((error) => {
       console.error("Signup error:", error);

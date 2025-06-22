@@ -22,9 +22,9 @@ document.querySelector('.login-form').addEventListener('submit', function (e) {
 
       // Redirect based on role
       if (userData.role === "trainer") {
-        window.location.href = "./trainer-dashboard.html";
+        window.location.href = "/trainer-dashboard";
       } else {
-        window.location.href = "../index.html"; // or create client-dashboard.html
+        window.location.href = "/"; // or create client-dashboard.html
       }
     })
     .catch((error) => {

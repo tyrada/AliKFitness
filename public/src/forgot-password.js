@@ -20,7 +20,7 @@ document.getElementById('reset-form').addEventListener('submit', function (e) {
     localStorage.setItem('user', JSON.stringify(user));
   
     alert('✅ Password reset successful! You can now log in.');
-    window.location.href = "./login.html";
+    window.location.href = "/login";
   });
   
   function validatePassword(password) {

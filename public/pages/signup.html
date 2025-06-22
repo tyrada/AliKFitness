@@ -62,7 +62,7 @@
           })
           .then(() => {
             alert("✅ Account created successfully! Redirecting to login...");
-            window.location.href = "./login.html";
+            window.location.href = "/login";
           })
           .catch((error) => {
             console.error("Signup error:", error);
@@ -95,8 +95,8 @@
       </form>
 
       <div class="login-links">
-        <a href="./login.html">Already have an account?</a> |
-        <a href="../index.html">Back to Home</a>
+        <a href="/login">Already have an account?</a> |
+        <a href="/">Back to Home</a>
       </div>
     </div>
   </section>
